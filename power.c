@@ -1,6 +1,6 @@
 #include "myMath.h"
 #define e 2.71
-double exp(int x)
+double Exp(int x)
 {
     double ans = 1;
     for (int i = 0; i < x; i++)
@@ -9,7 +9,7 @@ double exp(int x)
     }
     return ans;
 }
-double pow(double x, int y)
+double Pow(double x, int y)
 {
     double ans = 1;
     for (int i = 0; i < y; i++)
