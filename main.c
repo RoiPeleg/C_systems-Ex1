@@ -3,6 +3,8 @@
 int main()
 {
     double a = 0.0;
+    printf("tt %f\n", Exp(-2));
+    printf("2tt %f\n", Pow(2.0,-1));
     printf("Please insert a real number: ");
     scanf("%lf", &a);
     double f = 0.0;
